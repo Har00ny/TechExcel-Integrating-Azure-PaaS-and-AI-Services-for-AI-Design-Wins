@@ -67,4 +67,4 @@ jobs:
     - uses: azure/webapps-deploy@v2
       with:
         app-name: 'tijn2tqldupjo-dash'
-        images: {your_registry_name}.azurecr.io/techexcel/csdash:${{github.run_number}}
+        images: tijn2tqldupjocosureg.azurecr.io/techexcel/csdash:${{github.run_number}}
